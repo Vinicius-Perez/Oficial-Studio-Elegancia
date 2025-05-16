@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio Toque de Elegância - Manicure e Estética em Barretos</title>
+  <meta name="description" content="Studio de manicure e estética em Barretos oferecendo serviços de qualidade com cuidado e elegância. Agende seu horário!">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/estilo.css" />
+  <link rel="icon" type="image/png" href="./src/imagens/logotipo.png">
+  <script defer src="./src/js/script.js"></script>
+</head>
+<body>
+  <header>
+    <nav id="nav">
+      <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#parcerias">Parcerias</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-carrossel">
+      <div class="carrossel">
+        <div class="carrossel-item">
+          <img src="./src/imagens/carrossel1.png" alt="Studio Toque de Elegância">
+        </div>
+        <div class="carrossel-item">
+          <img src="./src/imagens/carrossel2.png" alt="Studio Toque de Elegância">
+        </div>
+        <div class="carrossel-item">
+          <img src="./src/imagens/carrossel3.png" alt="Studio Toque de Elegância">
+        </div>
+      </div>
+    </div>
+    <div class="hero-content">
+      <h1>Cuidado e beleza em cada detalhe</h1>
+      <p>Studio Toque de Elegância - Manicure e Estética</p>
+      <a href="https://wa.me/5516991393174" class="btn-agendar" target="_blank">Agende seu horário</a>
+    </div>
+    <div class="hero-overlay"></div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <h2 class="section-title">Sobre o Studio</h2>
+      <div class="sobre-content">
+        <div class="sobre-texto">
+          <p>Com anos de experiência no mercado de beleza, o <strong>Studio Toque de Elegância</strong> nasceu da paixão por realçar a beleza natural de cada cliente, oferecendo serviços de manicure e pedicure Tradicional, e estética com excelência, cuidado e muito carinho.</p>
+          <p>Meu objetivo é proporcionar uma experiência única, onde você possa relaxar enquanto cuido da sua beleza, com atenção aos detalhes e produtos de qualidade.</p>
+          <p>No Studio Toque de Elegância, cada cliente é único e recebe um atendimento personalizado para atender suas necessidades específicas.</p>
+        </div>
+        <div class="sobre-imagem">
+          <img src="./src/imagens/studio.jpg" alt="Studio Toque de Elegância">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" class="servicos">
+    <div class="container">
+      <h2 class="section-title">Nossos Serviços</h2>
+      <p class="section-subtitle">Conheça nossos serviços especializados</p>
+      
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">
+            <i class="fas fa-hand-sparkles"></i>
+          </div>
+          <h3>Manicure</h3>
+          <ul>
+            <li>Manicure tradicional</li>
+            <li>Esmaltação</li>
+            <li>Cutilagem</li>
+            <li>Decoração artística</li>
+          </ul>
+          <p class="price">A partir de R$ 30,00</p>
+        </div>
+        
+        <div class="card">
+          <div class="card-icon">
+            <i class="fas fa-socks"></i>
+          </div>
+          <h3>Pedicure</h3>
+          <ul>
+            <li>Pedicure tradicional</li>
+            <li>Esmaltação</li>
+            <li>SPA dos pés</li>
+            <li>Cuidado com os pés</li>
+          </ul>
+          <p class="price">A partir de R$ 40,00</p>
+        </div>
+        
+        <div class="card">
+          <div class="card-icon">
+            <i class="fas fa-spa"></i>
+          </div>
+          <h3>Estética</h3>
+          <ul>
+            <li>Drenagem</li>
+            <li>Auriculoterapia</li>
+            <li>Massagem relaxante</li>
+            <li>Reflexologia</li>
+          </ul>
+          <p class="price">A partir de R$ 60,00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria" class="galeria">
+    <div class="container">
+      <h2 class="section-title">Galeria</h2>
+      <p class="section-subtitle">Alguns dos nossos trabalhos</p>
+      
+      <div class="galeria-grid">
+        <div class="galeria-item">
+          <img src="./src/imagens/unhas/unha mão.jpg" alt="Manicure Tradicional">
+          <div class="galeria-overlay">
+            <p>Manicure Tradicional</p>
+          </div>
+        </div>
+        <div class="galeria-item">
+          <img src="./src/imagens/unhas/unha pé.jpg" alt="Pedicure Tradicional">
+          <div class="galeria-overlay">
+            <p>Pedicure Tradicional</p>
+          </div>
+        </div>
+        <div class="galeria-item">
+          <img src="./src/imagens/unhas/antes e depois.png" alt="Antes e Depois">
+          <div class="galeria-overlay">
+            <p>Antes e Depois</p>
+          </div>
+        </div>
+        <div class="galeria-item">
+          <img src="./src/imagens/unhas/spa.jpg" alt="SPA dos pés">
+          <div class="galeria-overlay">
+            <p>SPA dos Pés</p>
+          </div>
+        </div>
+
+        <div class="galeria-item">
+            <img src="./src/imagens/reflexologia e auriculo/auriculo.jpg" alt="Auriculoterapia">
+            <div class="galeria-overlay">
+              <p>Auriculoterapia</p>
+            </div>
+          </div>
+
+          <div class="galeria-item">
+            <img src="./src/imagens/reflexologia e auriculo/reflexo.jpg" alt="Reflexologia Podal">
+            <div class="galeria-overlay">
+              <p>Reflexologia Podal</p>
+            </div>
+          </div>
+
+          <div class="galeria-item">
+            <img src="./src/imagens/estetica corp/drenagem.jpg" alt="Drenagem">
+            <div class="galeria-overlay">
+              <p>Drenagem</p>
+            </div>
+          </div>
+
+          <div class="galeria-item">
+            <img src="./src/imagens/estetica corp/massagem.jpg" alt="Massagem">
+            <div class="galeria-overlay">
+              <p>Massagem</p>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="parcerias" class="parcerias">
+    <div class="container">
+      <h2 class="section-title">Nossas Parcerias</h2>
+      <p class="section-subtitle">Profissionais que indicamos</p>
+      
+      <div class="parceiros-grid">
+        <div class="parceiro">
+          <div class="parceiro-img">
+            <img src="./src/imagens/parceira.png" alt="Juliana Belougc">
+          </div>
+          <div class="parceiro-info">
+            <h3>Juliana Belougc</h3>
+            <p>Design de sobrancelhas, micropigmentação e estética facial.</p>
+            <div class="social-links">
+              <a href="https://www.instagram.com/julianabelougc/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://wa.me/5516999999999" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="parceiro">
+            <div class="parceiro-img">
+              <img src="./src/imagens/parceirasimone.png" alt="Juliana Belougc">
+            </div>
+            <div class="parceiro-info">
+              <h3>Simone Soltos</h3>
+              <p>Mentora Empresarial e Terapeuta Capilar.</p>
+              <div class="social-links">
+                <a href="https://www.instagram.com/simonesoltosbtos/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/5517981025070" target="_blank"><i class="fab fa-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="parceiro">
+            <div class="parceiro-img">
+              <img src="./src/imagens/parceirabronze.png" alt="Juliana Belougc">
+            </div>
+            <div class="parceiro-info">
+              <h3>Puro Bronze</h3>
+              <p>Bronzeamento legalizado e seguro.</p>
+              <div class="social-links">
+                <a href="https://www.instagram.com/purobronzebarretos/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/5517991264063" target="_blank"><i class="fab fa-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+          
+      </div>
+    </div>
+  </section>
+
+  <section id="localizacao" class="localizacao">
+    <div class="container">
+      <div class="localizacao-content">
+        <div class="localizacao-info">
+          <h2 class="section-title">Onde Estamos</h2>
+          <p><i class="fas fa-map-marker-alt"></i> Avenida João Batista da Rocha, N°2133, América, Barretos - SP</p>
+          <p><i class="fas fa-clock"></i> Horário de atendimento: Segunda a Sábado das 08h às 18h</p>
+          <p><i class="fas fa-phone"></i> (16) 99139-3174</p>
+          <a href="https://www.google.com/maps?q=Avenida+João+Batista+da+Rocha,+2133,+Barretos" class="btn-maps" target="_blank">
+            <i class="fas fa-map"></i> Ver no Google Maps
+          </a>
+        </div>
+        <div class="localizacao-foto">
+          <img src="./src/imagens/endereço.jpg" alt="Foto do Studio Toque de Elegância">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <div class="container">
+      <h2 class="section-title">Entre em Contato</h2>
+      <p class="section-subtitle">Agende seu horário ou tire suas dúvidas</p>
+      
+      <div class="contato-content">
+        <div class="contato-info">
+          <div class="contato-item">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <h3>WhatsApp</h3>
+              <a href="https://wa.me/5516991393174" target="_blank">(16) 99139-3174</a>
+            </div>
+          </div>
+          <div class="contato-item">
+            <i class="fab fa-instagram"></i>
+            <div>
+              <h3>Instagram</h3>
+              <a href="https://www.instagram.com/studiotoquedelegancia/" target="_blank">@studiotoquedeelegancia</a>
+            </div>
+          </div>
+          <div class="contato-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <a href="mailto:ellenpistor009@gmail.com">ellenpistor009@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        
+        <form class="contato-form" id="form-contato">
+          <div class="form-group">
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Seu email" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="telefone" name="telefone" placeholder="Seu telefone" required>
+          </div>
+          <div class="form-group">
+            <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" required></textarea>
+          </div>
+          <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <img src="./src/imagens/logotipo.png" alt="Studio Toque de Elegância" class="footer-logo">
+          <p>Cuidado e beleza em cada detalhe</p>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/studiotoquedelegancia/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/ellen.justino.3?locale=pt_BR" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/5516991393174" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Links Rápidos</h3>
+          <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Horário de Funcionamento</h3>
+          <p>Terça a Sexta: 08h - 20h</p>
+          <p>Sábado: 08h - 18h</p>
+          <p>Domingo e Segunda: Fechado</p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Studio Toque de Elegância. Todos os direitos reservados.</p>
+        <p>Desenvolvido com <i class="fas fa-heart"></i> por Vinícius Perez</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5516991393174" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+    <span>Agende pelo WhatsApp</span>
+  </a>
+
+  <div id="toast" class="toast"></div>
+</body>
+</html>
